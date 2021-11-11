@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("assets/bg-drum.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81%;
+    height: 100px;
+}
+
+.drum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 10px;
+    height: 90px;
+    color: white;
+    background-color: rgba(0, 49, 101, 0.61);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.drum:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease 0.1s;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+} 
